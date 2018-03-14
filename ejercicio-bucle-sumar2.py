@@ -8,16 +8,15 @@ numero=1
 resultado=0
 while ( salir=="N" ):
 	# Hago cosas
-    if (numero%2==0):
-    print numero
-    if (numero%2==0):
-        print "+"
+    if (resultado%2==0):
+        print numero,
+    if (resultado%2==0):
+        print "+",
     
 	# Incremento
-	numero=numero+1
-	if (numero%2==0):
-        resultado=resultado+`numero 
+        resultado=resultado+numero 
+        numero=numero+1
 	# Activo indicador de salida si toca
-	if ( numero>=4 ): # Condición de salida
+	if (numero>4): # Condición de salida
     	    salir = "S"
-          print "=",resultado
+            print "=",resultado
