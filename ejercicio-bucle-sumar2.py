@@ -8,9 +8,9 @@ numero=1
 resultado=0
 while ( salir=="N" ):
 	# Hago cosas
-    if (resultado%2==0):
+    if (numero%2==0):
         print numero,
-    if (resultado%2==0):
+    if (numero%2==0):
         print "+",
     
 	# Incremento
