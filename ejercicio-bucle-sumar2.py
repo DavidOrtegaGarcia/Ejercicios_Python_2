@@ -17,6 +17,6 @@ while ( salir=="N" ):
         resultado=resultado+numero 
         numero=numero+1
 	# Activo indicador de salida si toca
-	if (numero>4): # Condición de salida
+	if (numero>5): # Condición de salida
     	    salir = "S"
             print "=",resultado
